@@ -3,6 +3,9 @@
 \usepackage{dcolumn}
 \usepackage[version=3]{mhchem}
 \usepackage{url}
+% \usepackage[xindy]{glossaries}
+% \makeglossary
+
 
 \newcolumntype{s}{D{.}{.}{2.5}}
 \newcolumntype{d}{D{.}{.}{2.3}}
@@ -11,6 +14,14 @@
 \addtolength{\hoffset}{-2cm}
 \addtolength{\textwidth}{4cm}
 \addtolength{\textheight}{2cm}	
+
+% \newglossaryentry{2/3sugar}
+% {
+% 	name=2/3 Sugar Break,
+% 	description=When approximately 2/3 of the sugars have been consumed. Usually an estimate based on O.G. and alcohol tolerance of the yeast.
+% }
+
+
 %opening
 \title{A Compendium of Mead Knowledge}
 \author{
@@ -20,6 +31,7 @@
 }
 
 
+%TODO decide on tone? 1) scientific. 2) conversational/instructional
 \begin{document}
 
 \maketitle
@@ -29,6 +41,7 @@
 \newpage
 
 \section{Fermentation}
+ This is perhaps the most important aspect of mead making. You can have the best ingredients, but if you don't have a healthy fermentation your honey, and other ingedients, won't shine.
  \subsection{Yeast}
 %TODO add temperature ranges for all yeasts.
   There is a vast variety of high quality yeasts available to the average meadmaker. Highlighed below are a few of the favorite more easily available ones.
@@ -77,7 +90,24 @@
   
  \subsection{Yeast Feeding}
   The process of yeast nutrient additions is relatively simple at the core. Yeast need nutrients and honey does not have enough, therefore small amounts
-  of nutrients need to be added in order to keep the fermentation healthy. The Nanaiomo Winemakers have a good bit of detail on nutrient addition for fermentation \cite{nanaiomo-fermentation}
+  of nutrients need to be added in order to keep the fermentation healthy. The Nanaiomo Winemakers have a good bit of detail on nutrient addition for fermentation
+  \cite{nanaiomo-fermentation}. 
+  \subsubsection{Guidelines}
+   There isn't a set amount of nutrients to add, although there are guidelines. One of the easier (and common) to use nutrient 
+   combinations is Fermaid K and DAP at a ratio of 70\% Fermaid K and 30\% DAP. Ratio is based on weight. 
+ \subsection{\ce{H_2S} and Mercaptans}
+  One of the simplest indicators of yeast stress is the production of \ce{H_2S}. \ce{H_2S} smells of rotten eggs or sulfur. Yeast stress indicates that there is
+  something off in the fermentation dynamics. The most common reason for \ce{H_2S} is low nutrients. Other causes are temperature (either too low or too high for 
+  the yeast) and pH (too low or too high).
+
+  \subsubsection{Eliminating Before 2/3 Sugar Break} 
+
+  \subsubsection{Eliminating After 2/3 Sugar Break} 
+   If you smell \ce{H_2S} after 2/3
+
+ \subsection{Must pH}
+ \subsection{Temperate control}
+
  \subsection{Step Feeding}
   \subsubsection{Classical Step Feeding}
   \subsubsection{Bottom Dwelling Continuous Diffusion Yeast Feeding (BDC DYF)}
@@ -109,6 +139,8 @@
  \subsection{Bulk Aging}
  \subsection{Bottle Aging}
 
+% \section{Glossary}
+% \printglossary
 
 \newpage
 %TODO decide if inline or a separate file is better for organization.
