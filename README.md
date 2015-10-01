@@ -30,7 +30,7 @@ sudo apt-get install texlive-science
 ```
 And to build run
 ```
-pdflatex -interaction=nonstopmode MeadCompedium.tex
+pdflatex -interaction=nonstopmode MeadCompendium.tex
 ```
 from the root directory of the cloned project. For bibliography, index, glossary (yet to come), or section changes more than one run will have to be done.
 
