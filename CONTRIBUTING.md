@@ -1,5 +1,4 @@
 # Contributing to mead-compendium
+This project is under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. This basically means folks can use this information however they want as long as they give attribution. If they make changes they must release their changes as well under this same license. I learned this information basically for free, I'd like everyone else to be able to as well.
 
-Contributions are welcome! Anything from a spelling fix to an entirely new section on mead making goodness is wanted!
-
-Feel free to add an issue or issue a pull request, if you have any questions please contact me.
+Pleas see [README.md](README.md) for further details.
