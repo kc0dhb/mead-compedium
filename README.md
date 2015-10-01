@@ -4,7 +4,7 @@ A place to gather good meadmaking knowledge. Improvements are always welcome.
 There is much experience out there that should be leveraged and shared.
 
 # Contributing
-This project is under the [Creative Commons Attribution-ShareAlike 4.0 Internation](https://creativecommons.org/licenses/by-sa/4.0/) license. This basically means folks can use this information however they want as long as they give attribution. If they make changes they must release their changes as well under this same license. I learned this information basically for free, I'd like everyone else to be able to as well.
+This project is under the [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) license. This basically means folks can use this information however they want as long as they give attribution. If they make changes they must release their changes as well under this same license. I learned this information basically for free, I'd like everyone else to be able to as well.
 
 This project welcomes improvements in a variety of ways. Creating an issue is probably the easiest way to contribute.
 An issue (for this project) could be a question, a request, a disagreement, a section of text you'd like to include,
